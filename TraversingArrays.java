@@ -29,11 +29,6 @@ public class TraversingArrays {
             occurrences[temp]++;
         }
 
-        System.out.println("Generated Numbers: ");
-        for (int i = 0; i < store.length; i++) {
-            System.out.println(store[i]);
-        }
-
         System.out.println("Occurrences: ");
         for (int i = 0; i < occurrences.length; i++) {
             System.out.println(i + " " + occurrences[i]);
